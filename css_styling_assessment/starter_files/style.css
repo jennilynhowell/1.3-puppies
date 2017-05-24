@@ -1,0 +1,158 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+body {
+  padding-bottom: 20px;
+  border-bottom-style: solid;
+  border-bottom-color: #dddddd;
+  border-bottom-width: 5px;
+}
+
+/*HEADER*/
+
+#page_content {
+  margin: 7px;
+  padding: 50px 0px 50px 0px;
+}
+
+header {
+  background-color: #ff8523;
+  padding: 15px 15px 30px 15px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #dddddd;
+  padding: 10px 30px 10px 30px;
+  margin: 15px 5px 15px 0px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*UPPER SECTION*/
+
+#page_content ul {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom-style: solid;
+  border-bottom-color: #dddddd;
+  border-bottom-width: 5px;
+}
+
+#page_content h2, h3 {
+  font-weight: bold;
+  color: #1fabe5;
+}
+
+#page_content a {
+  color: #1fabe5;
+}
+
+/*TABLE*/
+
+table {
+  display: block;
+  table-layout: auto;
+  border-collapse: collapse;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom-style: solid;
+  border-bottom-color: #dddddd;
+  border-bottom-width: 5px;
+}
+
+thead {
+  background-color: #046c97;
+  color: white;
+}
+
+tr {
+  border-style: solid;
+  border-color: #1fabe5;
+  border-width: 2px;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  border-style: solid;
+  border-color: #1fabe5;
+  border-width: 2px;
+  padding: 10px;
+}
+
+table img {
+  height: 70px;
+  width: 70px;
+}
+
+/*FORM SECTION*/
+
+form, .name {
+  padding: 15px;
+  border-radius: 5px;
+}
+
+form {
+  background-color: #dddddd;
+  font-weight: bold;
+}
+
+.name {
+  background-color: #ff8523;
+  color: white;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+#first_name, #last_name {
+  height: 30px;
+  width: 30%;
+}
+
+.city_container {
+  margin-bottom: 25px;
+}
+
+textarea {
+  padding: 10px;
+  width: 95%;
+  font-size: 0.8em;
+}
+
+#submit_button {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1em;
+  padding: 10px;
+  margin: 5px 5px 5px 0px;
+  background-color: #046c97;
+  text-align: center;
+  border-radius: 5px;
+}
